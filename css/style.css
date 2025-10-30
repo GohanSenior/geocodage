@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenu {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+#adresse {
+    width: 50%;
+}
+select {
+    visibility: hidden;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+#divError {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>geocodage</title>
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <section>
+            <div class="contenu">
+                <h2>Auto-complétion d'adresse</h2>
+                <div>
+                    <label for="adresse">Saisissez une adresse: </label>
+                    <input type="text" name="adresse" id="adresse" placeholder="Exemple: 10 rue de Paris" /><br />
+                    <select name="suggestions" id="suggestions"></select>
+                </div>
+                <div id="divError"></div>
+            </div>
+        </section>
+
+        <script src="/js/script.js"></script>
+    </body>
+</html>
